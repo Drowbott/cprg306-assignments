@@ -93,7 +93,7 @@ const MealIdeas = ({ ingredient }) => {
                     ))}
                 </ul>
             ) : (
-                <p>No meal ideas found for "{ingredient || 'the selected item'}".</p>
+                <p>No meal ideas found for "{ingredient || 'no item selected'}".</p>
             )}
         </div>
     );
